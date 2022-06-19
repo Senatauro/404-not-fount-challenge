@@ -11,7 +11,7 @@ function App() {
         <div className="text-404">
           <h1 className="title-404">I have bad news for you</h1>
           <p className="desc-404">The page you are looking for might be removed or is temporarily unavailable</p>
-          <a href="#" className="link-404">Back to homepage</a>
+          <button className="link-404">Back to homepage</button>
         </div>
       </div>
       <div className="footer-404">created by <a href="https://senatauro.github.io/">Senatauro</a> - devChallenges.io</div>
