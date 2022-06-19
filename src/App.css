@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.page-404{
+  padding: 40px 119px 24px 70px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.title{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.info-404{
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.info-404 img{
+  width: 40%;
+  align-self: center;
+}
+
+.text-404{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.title-404{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+
+.desc-404{
+  width: 60%;
+
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4F4F4F;
+}
+
+.link-404{
+  padding: 25px 45px;
+  background-color: #333333;
+  text-transform: uppercase;
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-404, .footer-404 a{
+  align-self: center;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #BDBDBD;
+
+  margin-top: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 900px) {
+  .title{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 64px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .page-404{
+    padding: 20px;
+  }
+
+  .info-404{
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .info-404 img{
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .title-404{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+
+    /* Gray 1 */
+
+    color: #333333;
+  }
+
+  .desc-404{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    width: 100%;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
   }
 }
