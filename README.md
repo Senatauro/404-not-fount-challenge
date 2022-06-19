@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Simple React 404 page </h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://master--magical-cat-5d5001.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/tXtCsrElCimcXpDjhFxo">
       Solution
     </a>
     <span> | </span>
@@ -41,7 +41,7 @@ This is a simple 404 page made for the devchallenges.io 1° responsive web devel
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo? [Here](https://{your-demo-link.your-domain})
+- Where can I see your demo? [Here](https://master--magical-cat-5d5001.netlify.app/)
 - What was your experience? UP
 - What have you learned/improved? UP
 - Your wisdom? Responsive web dev is hard
@@ -62,4 +62,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [https://senatauro.github.io/](https://senatauro.github.io/)
-- GitHub [@Senatauro](https://{github.com/your-usermame})
+- GitHub [@Senatauro](https://github.com/Senatauro)
